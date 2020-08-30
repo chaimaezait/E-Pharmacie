@@ -1,0 +1,5 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ]//by having this config we can run our e6 code in terminal
+}

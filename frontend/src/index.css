@@ -1,0 +1,192 @@
+html {
+  font-size:  62.5%; /*16px*62.5 = 10 px= 1 rem*/
+  box-sizing:  border-box;
+}
+body{
+  font: 1.6rem Helvetica;
+  height: 100vh;
+  margin: 0;
+}
+#root{
+  height: 100%;
+}
+.grid-container{
+  display: grid;
+  grid-template-areas:
+  "header"
+  "main"
+  "footer" ;
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+.header{
+  grid-area: header;
+  background-color: darkslateblue;
+  color: floralwhite ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand a{
+  color: floralwhite;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.header-links a{
+  color: floralwhite;
+  text-decoration: none;
+}
+.header-links a:hover{
+  color: lightseagreen;
+}
+.brand a:hover{
+  color: lightseagreen;
+}
+.main{
+  grid-area: main;
+}
+.footer{
+  grid-area: footer;
+  background-color: darkslateblue;
+  color: floralwhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Home Screen*/
+.products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /*To put items into column*/
+}
+.products li {
+  list-style-type: none;
+  flex:0 1 34rem;
+  margin: 1;
+  height: 50rem;
+  border-bottom: .1rem wheat;
+
+}
+.product-Image {
+  max-width: 30rem;
+  max-height: 30rem;
+}
+.product-name{
+  font-size:2rem ; 
+  font-weight: bold; 
+}
+.product-description{
+  font-weight: 1.2rem;
+  color: rgb(84, 85, 94);
+}
+.product-price{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: lightseagreen;
+}
+.ranking{
+  margin-bottom: 1rem;
+}
+/*Sidebar*/
+.brand button{
+  font-size: 3rem;
+  padding: .5rem;
+  background: none;
+  border: none;
+  color: snow;
+  cursor: pointer;
+}
+.sidebar{
+  position: fixed;
+  transform: translateX(-30rem);/*To keep the sidebar out of the screen*/
+  width: 30rem;
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+}
+.sidebar.open{
+  transform: translateX(0);
+}
+.sidebar-close-button{
+  border-radius: 50%;
+  border: .1rem black;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  padding-top: 0;
+  cursor: pointer;
+  position: absolute;
+  right: .5rem;
+  top: 1.5rem;
+}
+
+/*
+Prosuct Details
+*/
+.details{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;/*Tpo push stuff in new line*/
+  padding: 1rem;
+}
+.details_image img{
+  max-width: 60rem;
+  widows: 100%;
+}
+.details_image{
+  flex: 2 1 60rem;
+}
+.details_info{
+  flex: 1 1 30rem;
+}
+.details_action{
+  flex: 1 1 30rem;
+}
+.details_info ul,.details_action ul{
+  list-style-type: none;
+  padding: 0%;
+}
+.details_info li,.details_action li{
+  margin: 2rem; /* To create space between details info & details action*/
+}
+.back-to-result{
+  padding: 1rem;
+}
+.details_action{
+  border: .1rem rgb(233, 226, 226) solid;
+  border-radius: 0.5rem;
+  background-color: snow;
+  padding: 1rem;
+   
+}
+.details_action ul li:last-child{
+  display: flex;
+  flex-direction: column; /* By having this two features it s gonna be full weigth*/
+}
+.button{
+  padding: 1rem;
+  border: .1rem #808080 solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.button:hover{
+  border:.1rem rgb(226, 204, 8) ;
+}
+.button.primary{
+  background-color: rgb(204, 74, 13);
+}
