@@ -10,7 +10,8 @@ export default   {
             price: 3.32,
             Reference:  3400927897474,
             reviews:10,
-            status :"En stock "
+            status :"En stock ",
+            countInStock: 5
         },
         {
             _id:1,
@@ -22,7 +23,8 @@ export default   {
             price: 11.27,
             Reference: 3400936498990,
             reviews:4,
-            status :"En stock "
+            status :"En stock ",
+            countInStock: 8
         },
         {
             _id:2,
@@ -34,7 +36,8 @@ export default   {
             price: 4.29,
             Reference: 3400936760578,
             reviews:5,
-            status :"En stock "
+            status :"En stock ",
+            countInStock: 1
         },
         {
             _id:3,
@@ -46,7 +49,8 @@ export default   {
             price: 2.18,
             Reference:  3400936158832,
             reviews:2,
-            status :"En stock "
+            status :"En stock ",
+            countInStock: 9
         },
         {
             _id:4,
@@ -59,7 +63,8 @@ export default   {
             Reference: 3800029867250,
             rating: 5,
             reviews:17,
-            status :"En stock le 07/01 !"
+            status :"En stock le 07/01 !",
+            countInStock: 3
         },
         {
             _id:5,
@@ -72,7 +77,8 @@ export default   {
             Reference: 4569871236,
             rating: 4,
             reviews:0,
-            status :"En stock "
+            status :"En stock ",
+            countInStock: 5
         },
         {
             _id:6,
@@ -85,7 +91,8 @@ export default   {
             Reference: 3532678590486,
             rating: 3,
             reviews:10,
-            status :"En stock le 07/31 !"
+            status :"En stock le 07/31 !",
+            countInStock: 2
         },
         {
             _id:7,
@@ -98,7 +105,8 @@ export default   {
             Reference: 3401597168697,
             rating:5,
             reviews:0,
-            status :"En stock "
+            status :"En stock ",
+            countInStock: 1
         },
         {
             _id:8,
@@ -111,7 +119,8 @@ export default   {
             Reference: 3401576419437,
             rating:3,
             reviews:15,
-            status :"En stock le 06/09 !"
+            status :"En stock le 06/09 !",
+            countInStock: 3
         },
         {
             _id:9,
@@ -124,7 +133,8 @@ export default   {
             Reference: 3401560504828,
             rating:5,
             reviews:4,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 8
         },
         {
             _id:10,
@@ -137,7 +147,8 @@ export default   {
             Reference: 4,
             rating:0,
             reviews:0,
-            status :"En stock le 07/28!"
+            status :"En stock le 07/28!",
+            countInStock: 4
         },
         {
             _id:11,
@@ -150,7 +161,8 @@ export default   {
             Reference: 3662042003547,
             rating:0,
             reviews:0,
-            status :"En stock le 08/09 !"
+            status :"En stock le 08/09 !",
+            countInStock: 7
         },
         {
             _id:12,
@@ -163,7 +175,8 @@ export default   {
             Reference: 3518646213380,
             rating:0,
             reviews:0,
-            status :"En stock "
+            status :"En stock ",
+            countInStock: 6
         },
         {
             _id:13,
@@ -176,7 +189,8 @@ export default   {
             Reference: 3264680023910,
             rating:0,
             reviews:0,
-            status :"En stock le 07/09 !"
+            status :"En stock le 07/09 !",
+            countInStock: 1
         },
         {
             _id:14,
@@ -189,7 +203,8 @@ export default   {
             Reference: 3264680023248,
             rating:0,
             reviews:0,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 1
         },
         {
             _id:15,
@@ -202,7 +217,8 @@ export default   {
             Reference: 3264680023033,
             rating:5,
             reviews:5,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 1
         },
         {
             _id:16,
@@ -215,7 +231,8 @@ export default   {
             Reference: 3264680023101,
             rating:5,
             reviews:0,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 3
         },
         {
             _id:17,
@@ -228,7 +245,8 @@ export default   {
             Reference: 7640107850141,
             rating:5,
             reviews:1,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 4
         },
         {
             _id:18,
@@ -241,7 +259,8 @@ export default   {
             Reference:  7640107850622,
             rating:5,
             reviews:1,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 5
         },
         {
             _id:19,
@@ -254,7 +273,8 @@ export default   {
             Reference: 3401360114890,
             rating:0,
             reviews:0,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 3
 
         },
         {
@@ -268,7 +288,8 @@ export default   {
             Reference: 7640107850813,
             rating:0,
             reviews:0,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 2
         },
         {
             _id:21,
@@ -281,7 +302,8 @@ export default   {
             Reference: 3663702101658,
             rating:5,
             reviews:1,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 3
         },
         {
             _id:22,
@@ -294,7 +316,8 @@ export default   {
             Reference: 3504105028374,
             rating:5,
             reviews:7,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 3
         },
         {
             _id:23,
@@ -307,7 +330,8 @@ export default   {
             Reference: 3400930747438,
             rating:3,
             reviews:4,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 3
         },
         {
             _id:24,
@@ -320,7 +344,53 @@ export default   {
             Reference: 3401051049166,
             rating:3,
             reviews:0,
-            status :"En stock"
+            status :"En stock",
+            countInStock: 3
+
+        },
+        {
+            _id:25,
+            name:"Novalac 3 800 g",
+            category:"Bébé & Maman",
+            image:"https://images.lasante.net/10030-83368-large.jpg",
+            type: "Lait en poudre 800 g",
+            description:"Novalac lait pour nourrissons.A partir de 1 an.",
+            price: 9.23,
+            Reference: 3401551533691,
+            rating:0,
+            reviews:0,
+            status :"En stock",
+            countInStock: 6
+
+        },
+        {
+            _id:26,
+            name:" Avène Cleanance Solaire SPF50+ 50 ml",
+            category:"Beauté & Soins",
+            image:"https://images.lasante.net/27955-109379-large.jpg",
+            type: "Fluide 50 ml",
+            description:"Cleanance Solaire, avec sa très haute protection s'adresse aux peaux grasses à tendance acnéique exposées à un ensoleillement intense. Cleanance Solaire est résistant à l'eau, ce qui vous permet de vous baigner tout vous protégeant !",
+            price: 10.91,
+            Reference: 3282770112634,
+            rating:5,
+            reviews:30,
+            status :"En stock",
+            countInStock: 7
+
+        },
+        {
+            _id:27,
+            name:" Melvita Eau Florale de Rose Ancienne Spray 200 ml",
+            category:"Beauté & Soins",
+            image:"https://images.lasante.net/28696-109124-large.jpg",
+            type: "Eau 200 ml",
+            description:"Cette eau florale de rose aux vertus toniques est 100% d'origine naturelle, elle hydrate, revitalise et tonifie tous les types de peaux. Elle est également conseillée pour lutter contre les signes de vieillesse. Certifiée bio par Ecocert. Existe en 50 ml",
+            price: 9.89,
+            Reference: 3284410025854,
+            rating:5,
+            reviews:0,
+            status :"En stock",
+            countInStock: 450
 
         }
     ]
